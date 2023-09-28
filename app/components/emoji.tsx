@@ -6,8 +6,8 @@ import EmojiPicker, {
 
 import { ModelType } from "../store";
 
-import BotIcon from "../icons/bot.svg";
-import BlackBotIcon from "../icons/black-bot.svg";
+import BotIcon from "../icons/ms.svg";
+import BlackBotIcon from "../icons/ms.svg";
 
 export function getEmojiUrl(unified: string, style: EmojiStyle) {
   return `https://cdn.staticfile.org/emoji-datasource-apple/14.0.0/img/${style}/64/${unified}.png`;
