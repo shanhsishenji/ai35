@@ -683,8 +683,8 @@ export function Settings() {
             {checkingUpdate ? (
               <LoadingIcon />
             ) : hasNewVersion ? (
-              <Link target="_blank" className="link">
-               
+             <Link href="#" target="_blank" className="link">
+                {Locale.Settings.Update}
               </Link>
             ) : (
               <IconButton
