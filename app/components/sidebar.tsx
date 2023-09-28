@@ -207,7 +207,7 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
+            <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=d-1skBQ1OkcRd9xo8kPXud_lNaCSG3u2&authKey=PS1hAGuLABbWw880q5AN5MbQ28IvkopYQ5Tb%2FO76lzQKvzxXRnwKesIJ5Snl7tGC&noverify=0&group_code=817377776" target="_blank" rel="noopener noreferrer">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>
